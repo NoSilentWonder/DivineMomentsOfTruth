@@ -1,0 +1,17 @@
+// ZOrder.hpp
+
+#ifndef Z_ORDER_HPP_
+#define Z_ORDER_HPP_
+
+enum Z
+{
+	Z_BACKGROUND,
+	Z_BETWEEN_MID_AND_BACKGROUND,
+	Z_MIDGROUND,
+	Z_BETWEEN_MID_AND_FORGROUND,
+	Z_FOREGROUND,
+	Z_FILTER,
+	Z_UI
+};
+
+#endif 
